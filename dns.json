@@ -1,0 +1,18 @@
+{
+    "Comment": "Create a new DNS record",
+    "Changes": [
+      {
+        "Action": "CREATE",
+        "ResourceRecordSet": {
+          "Name": "*.kong.platform.vee.codes",
+          "Type": "A",
+          "TTL": 300,
+          "ResourceRecords": [
+            {
+              "Value": "44.219.80.30"
+            }
+          ]
+        }
+      }
+    ]
+}

@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "teste-kong-start-ingress"
+  annotations:
+    github.com/project-slug: veecode-homolog/teste-kong-start-ingress
+    github.com/workflows: kong.yml
+    backstage.io/techdocs-ref: dir:.
+    vault.io/secrets-path: devportal
+spec:
+  type: devops
+  lifecycle: experimental
+  owner: "group:default/admin"
